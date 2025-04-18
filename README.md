@@ -1,6 +1,12 @@
-# 💬 DiscordOps – Real-Time Discord Agent with Web Search
+# 💬 Dissi – Real-Time Discord Agent with Web Search
 
-**DiscordOps** is a high-performance, real-time communication agent powered by **Groq** and built with **Agno**, designed to interact with Discord servers using natural language. Equipped with Discord tools and DuckDuckGo search, it allows you to control server actions like reading/sending messages, managing threads, reactions, and more — all from a simple chat UI.
+**Dissi** is a high-performance, real-time communication agent powered by **Groq** and built with **Agno**, designed to interact with Discord servers using natural language. Equipped with Discord tools and DuckDuckGo search, it allows you to control server actions like reading/sending messages, managing threads, reactions, and more — all from a simple chat UI.
+
+---
+
+| Demo Video                                                                 |
+|----------------------------------------------------------------------------|
+| [![YouTube](http://i.ytimg.com/vi/pjPW77G3DI0/hqdefault.jpg)](https://youtu.be/pjPW77G3DI0) |
 
 ---
 
@@ -93,3 +99,10 @@ npm run dev
 
 - This agent is **on-demand**, not always active. It performs actions only when you prompt it through the chat UI.
 - You must provide a valid **Channel/Guild ID** where your bot has access.
+
+---
+
+### :email: Contact
+
+Hi, I'm K Om Senapati! 👋  
+Connect with me on [LinkedIn](https://www.linkedin.com/in/kom-senapati/), [X](https://x.com/kom_senapati) and check out my other projects on [GitHub](https://github.com/kom-senapati).

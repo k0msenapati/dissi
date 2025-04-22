@@ -4,9 +4,10 @@
 
 ---
 
-| Demo Video                                                                 |
-|----------------------------------------------------------------------------|
-| [![YouTube](http://i.ytimg.com/vi/pjPW77G3DI0/hqdefault.jpg)](https://youtu.be/pjPW77G3DI0) |
+| Demo Video                                                                 | Blog Post                                                                 |
+|----------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| [![YouTube](http://i.ytimg.com/vi/pjPW77G3DI0/hqdefault.jpg)](https://youtu.be/pjPW77G3DI0) |[![Blog](https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fxkfugfoig0cif52imrsg.png)](https://dev.to/komsenapati/building-dissi-with-agno-and-mcp-4044) |
+
 
 ---
 

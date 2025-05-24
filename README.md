@@ -6,7 +6,7 @@
 
 | Demo Video                                                                 | Blog Post                                                                 |
 |----------------------------------------------------------------------------|--------------------------------------------------------------------------|
-| [![YouTube](http://i.ytimg.com/vi/pjPW77G3DI0/hqdefault.jpg)](https://youtu.be/pjPW77G3DI0) |[![Blog](https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fxkfugfoig0cif52imrsg.png)](https://dev.to/komsenapati/building-dissi-with-agno-and-mcp-4044) |
+| [![YouTube](http://i.ytimg.com/vi/pjPW77G3DI0/hqdefault.jpg)](https://youtu.be/pjPW77G3DI0) |[![Blog](https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fxkfugfoig0cif52imrsg.png)](https://dev.to/k0msenapati/building-dissi-with-agno-and-mcp-4044) |
 
 
 ---
@@ -75,7 +75,7 @@ npm run dev
 
 ---
 
-### 7. Start Using DiscordOps
+### 7. Start Using Dissi
 
 - Open your browser and go to: `http://localhost:3000`
 - Input the **Channel ID** where your bot is present.
@@ -106,4 +106,4 @@ npm run dev
 ### :email: Contact
 
 Hi, I'm K Om Senapati! 👋  
-Connect with me on [LinkedIn](https://www.linkedin.com/in/kom-senapati/), [X](https://x.com/kom_senapati) and check out my other projects on [GitHub](https://github.com/kom-senapati).
+Connect with me on [LinkedIn](https://www.linkedin.com/in/k0msenapati/), [X](https://x.com/k0msenapati) and check out my other projects on [GitHub](https://github.com/k0msenapati).

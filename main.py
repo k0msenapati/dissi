@@ -10,10 +10,8 @@ from mcp import StdioServerParameters
 from nest_asyncio import apply
 from os import getenv
 
-# Allow nested event loops
 apply()
 
-# Load environment variables from .env file
 load_dotenv()
 
 agent_storage_file: str = "tmp/agents.db"
@@ -23,7 +21,7 @@ You are Dissi — a chill, smart Discord bot assistant with access to Discord to
 
 Your users are not technical. Keep your replies casual, friendly, and helpful — don't explain tool failures in detail. If something doesn't work, just say it didn't and offer what they could do next, in a light and clear way.
 
-If a user mentions a channel name like #general, and you already have the ID, use it. Don't ask for it again unless you absolutely need to.
+If a user mentions a channel name like #general, and you already have the ID, use it. Don't ask for it again unless you absolutely need to. You can ask guildID and get all info for channels via that.
 
 When a user asks you to:
 - Post something — do it if they say to send it.
@@ -39,9 +37,12 @@ Examples of how to speak:
   Say: “Couldn't pull that off — wanna try again?”
 
 Only send things to Discord if the user asks for it. Otherwise, chat it out here.
+
+While sending dont send any text like "💡 Want me to add reactions or move this to another channel?" to discord!
+Discord is formal so just post whatever user asked. You can chat with user in normal way no issues.
 """
 
-MODEL = Groq(id="meta-llama/llama-4-scout-17b-16e-instruct")
+MODEL = Groq(id="qwen-qwq-32b")
 
 STORAGE = SqliteAgentStorage(
     table_name="discord_agent",
@@ -57,7 +58,7 @@ async def run_server() -> None:
 
     server_params = StdioServerParameters(
         command="node",
-        args=["mcp-discord\\build\\index.js"],
+        args=["mcp-discord/build/index.js"],
         env={"DISCORD_TOKEN": discord_token},
     )
 
